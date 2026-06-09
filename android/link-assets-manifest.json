@@ -1,0 +1,57 @@
+{
+  "migIndex": 1,
+  "data": [
+    {
+      "path": "CascadesGuestStay/CascadesGuestStayAssets/fonts/DMSans-Black.ttf",
+      "sha1": "928765ebc49e7c22a223052891a9b7e9c1ced790"
+    },
+    {
+      "path": "CascadesGuestStay/CascadesGuestStayAssets/fonts/DMSans-Bold.ttf",
+      "sha1": "10e061ac7f01fd542e0c1956e89b12a272607f5d"
+    },
+    {
+      "path": "CascadesGuestStay/CascadesGuestStayAssets/fonts/DMSans-ExtraBold.ttf",
+      "sha1": "283ba20eb28248c93a2f109c6694c2aaa1107561"
+    },
+    {
+      "path": "CascadesGuestStay/CascadesGuestStayAssets/fonts/DMSans-Medium.ttf",
+      "sha1": "dad2637623defedd4720447c5bbaa3d96b1594ee"
+    },
+    {
+      "path": "CascadesGuestStay/CascadesGuestStayAssets/fonts/DMSans-Regular.ttf",
+      "sha1": "76c500a4e46a2ef4252e909109926e08272ac849"
+    },
+    {
+      "path": "CascadesGuestStay/CascadesGuestStayAssets/fonts/DMSans-SemiBold.ttf",
+      "sha1": "d0f49c8f35f1155a2c0a945051319e134d3ba0cf"
+    },
+    {
+      "path": "CascadesGuestStay/CascadesGuestStayAssets/fonts/DMSans-SemiBoldItalic.ttf",
+      "sha1": "a296a5a6a61b4cf6b430563e43392b73ac2cf9ad"
+    },
+    {
+      "path": "CascadesGuestStay/CascadesGuestStayAssets/fonts/PlayfairDisplay-Black.ttf",
+      "sha1": "ac1ab1b54b6edc5e52dbffc5cb06554b742ad080"
+    },
+    {
+      "path": "CascadesGuestStay/CascadesGuestStayAssets/fonts/PlayfairDisplay-Bold.ttf",
+      "sha1": "57360f49f076d7bdd7a9e1e93abf3bed7d56d726"
+    },
+    {
+      "path": "CascadesGuestStay/CascadesGuestStayAssets/fonts/PlayfairDisplay-ExtraBold.ttf",
+      "sha1": "1e31527131b2ff9019ccba56ac57e84c2612393a"
+    },
+    {
+      "path": "CascadesGuestStay/CascadesGuestStayAssets/fonts/PlayfairDisplay-Medium.ttf",
+      "sha1": "de85ce98fad06daf64f86d670e13fa3ecef5b515"
+    },
+    {
+      "path": "CascadesGuestStay/CascadesGuestStayAssets/fonts/PlayfairDisplay-Regular.ttf",
+      "sha1": "3e12c2cf422de852cd0af0227179901b155abf14"
+    },
+    {
+      "path": "CascadesGuestStay/CascadesGuestStayAssets/fonts/PlayfairDisplay-SemiBold.ttf",
+      "sha1": "7fa24e8796734ec17d72f1e97cfb5d427508e337"
+    }
+  ]
+}
