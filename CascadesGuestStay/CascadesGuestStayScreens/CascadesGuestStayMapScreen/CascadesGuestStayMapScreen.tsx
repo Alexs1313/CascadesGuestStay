@@ -65,7 +65,7 @@ export function CascadesGuestStayMapScreen() {
           ]}>
           <View style={styles.cascadesGuestStayHeaderInner}>
             <Text style={styles.cascadesGuestStayEyebrow}>Resort Map</Text>
-            <Text style={styles.cascadesGuestStayTitle}>Interactive Map</Text>
+            <Text style={styles.cascadesGuestStayTitle}>Map</Text>
           </View>
         </LinearGradient>
 

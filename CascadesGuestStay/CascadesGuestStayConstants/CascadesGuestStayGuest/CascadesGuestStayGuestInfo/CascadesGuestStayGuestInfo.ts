@@ -1,5 +1,5 @@
 export const CASCADES_GUEST_STAY_GUEST = {
-  name: 'Demo Guest',
+  name: 'Guest',
   room: 'Suite 1204',
   checkout: 'Jun 14',
   guestId: 'DEMO-GUEST-2024-CASCADE',
