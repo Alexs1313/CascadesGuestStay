@@ -22,12 +22,12 @@
       "sha1": "76c500a4e46a2ef4252e909109926e08272ac849"
     },
     {
-      "path": "src/assets/fonts/guest_stay_font_sans_semibold.ttf",
-      "sha1": "d0f49c8f35f1155a2c0a945051319e134d3ba0cf"
-    },
-    {
       "path": "src/assets/fonts/guest_stay_font_sans_semibold_italic.ttf",
       "sha1": "a296a5a6a61b4cf6b430563e43392b73ac2cf9ad"
+    },
+    {
+      "path": "src/assets/fonts/guest_stay_font_sans_semibold.ttf",
+      "sha1": "d0f49c8f35f1155a2c0a945051319e134d3ba0cf"
     },
     {
       "path": "src/assets/fonts/guest_stay_font_serif_black.ttf",
