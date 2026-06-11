@@ -1,28 +1,13 @@
 import React from 'react';
-import {Image, StyleSheet, Text, View} from 'react-native';
+import {StyleSheet, Text, View} from 'react-native';
 import LinearGradient from 'react-native-linear-gradient';
+import {CascadesGuestStayQrCode} from '../../CascadesGuestStayCommon/CascadesGuestStayQrCode/CascadesGuestStayQrCode';
 import {CASCADES_GUEST_STAY_GUEST} from '../../../CascadesGuestStayConstants/CascadesGuestStayGuest/CascadesGuestStayGuestInfo/CascadesGuestStayGuestInfo';
 import {cascadesGuestStayColors} from '../../../CascadesGuestStayConstants/CascadesGuestStayBase/CascadesGuestStayTheme/CascadesGuestStayColors';
 import {cascadesGuestStayFonts} from '../../../CascadesGuestStayConstants/CascadesGuestStayBase/CascadesGuestStayTheme/CascadesGuestStayFonts';
 import {cascadesGuestStayScale} from '../../../CascadesGuestStayConstants/CascadesGuestStayBase/CascadesGuestStayLayout/CascadesGuestStayLayout';
 
-function CascadesGuestStayQrPlaceholder() {
-  const cells = Array.from({length: 49});
-  return (
-    <View style={styles.cascadesGuestStayQrGrid}>
-      {cells.map((_, index) => (
-        <View
-          key={index}
-          style={[
-            styles.cascadesGuestStayQrCell,
-            (index + Math.floor(index / 7)) % 2 === 0 &&
-              styles.cascadesGuestStayQrCellDark,
-          ]}
-        />
-      ))}
-    </View>
-  );
-}
+const CASCADES_GUEST_STAY_QR_SIZE = cascadesGuestStayScale(113);
 
 export function CascadesGuestStayGuestIdCard() {
   return (
@@ -47,8 +32,9 @@ export function CascadesGuestStayGuestIdCard() {
 
         <View style={styles.cascadesGuestStayBody}>
           <View style={styles.cascadesGuestStayQrWrap}>
-            <Image
-              source={require('../../../CascadesGuestStayAssets/qr.png')}
+            <CascadesGuestStayQrCode
+              value={CASCADES_GUEST_STAY_GUEST.guestId}
+              size={CASCADES_GUEST_STAY_QR_SIZE}
             />
           </View>
           <View style={styles.cascadesGuestStayInfo}>
@@ -121,22 +107,10 @@ const styles = StyleSheet.create({
     marginTop: cascadesGuestStayScale(20),
   },
   cascadesGuestStayQrWrap: {
-    height: cascadesGuestStayScale(113),
-    width: cascadesGuestStayScale(113),
-  },
-  cascadesGuestStayQrGrid: {
-    flexDirection: 'row',
-    flexWrap: 'wrap',
-    height: '100%',
-    width: '100%',
-  },
-  cascadesGuestStayQrCell: {
-    backgroundColor: '#E8E8E8',
-    height: '14.28%',
-    width: '14.28%',
-  },
-  cascadesGuestStayQrCellDark: {
-    backgroundColor: '#1A1A1A',
+    borderRadius: cascadesGuestStayScale(8),
+    height: CASCADES_GUEST_STAY_QR_SIZE,
+    overflow: 'hidden',
+    width: CASCADES_GUEST_STAY_QR_SIZE,
   },
   cascadesGuestStayInfo: {
     flex: 1,

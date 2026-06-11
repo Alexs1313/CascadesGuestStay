@@ -12,11 +12,11 @@ import {
   cascadesGuestStayScale,
   cascadesGuestStayVerticalScale,
 } from '../../CascadesGuestStayConstants/CascadesGuestStayBase/CascadesGuestStayLayout/CascadesGuestStayLayout';
-import {cascadesGuestStayFormatPrice} from '../../../CascadesGuestStayUtils/CascadesGuestStayFormatting/CascadesGuestStayPrice/cascadesGuestStayFormatPrice';
-import type {CascadesGuestStayHomeStackParamList} from '../../../CascadesGuestStayNav';
+import {cascadesGuestStayFormatPrice} from '../../CascadesGuestStayUtils/cascadesGuestStayFormatPrice';
+import type {CascadesGuestStayStackParamList} from '../../CascadesGuestStayNavTypes';
 
 type CascadesGuestStayOrderScreenProps = {
-  navigation: StackNavigationProp<CascadesGuestStayHomeStackParamList, 'Order'>;
+  navigation: StackNavigationProp<CascadesGuestStayStackParamList, 'Order'>;
 };
 
 export function CascadesGuestStayOrderScreen({

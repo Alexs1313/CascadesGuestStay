@@ -1,8 +1,8 @@
 import {MapStyleElement} from 'react-native-maps';
 
-export const CASCADES_GUEST_STAY_MAP_PIN = require('../../../CascadesGuestStayAssets/pin.png');
-export const CASCADES_GUEST_STAY_MAP_PIN_GREEN = require('../../../CascadesGuestStayAssets/pin_green.png');
-export const CASCADES_GUEST_STAY_MAP_PIN_PURPLE = require('../../../CascadesGuestStayAssets/pin_purple.png');
+export const CASCADES_GUEST_STAY_MAP_PIN = require('../../../CascadesGuestStayAssets/GuestStaypin.png');
+export const CASCADES_GUEST_STAY_MAP_PIN_GREEN = require('../../../CascadesGuestStayAssets/GuestStaypin_green.png');
+export const CASCADES_GUEST_STAY_MAP_PIN_PURPLE = require('../../../CascadesGuestStayAssets/GuestStaypin_purple.png');
 
 export const CASCADES_GUEST_STAY_MAP_PIN_SIZE = 24;
 export const CASCADES_GUEST_STAY_MAP_PIN_SIZE_SELECTED = 30;

@@ -32,7 +32,7 @@ export const CASCADES_GUEST_STAY_DINING_MENU: CascadesGuestStayMenuItem[] = [
       'A hearty breakfast featuring two farm-fresh eggs cooked to your preference, crispy smoked bacon, golden breakfast potatoes, buttered toast, and a side of seasonal fresh fruit.',
     price: 18,
     prepTimeMin: 20,
-    image: require('../../../CascadesGuestStayAssets/ClassicCanadianBreakfast.png'),
+    image: require('../../../CascadesGuestStayAssets/GuestStayClassicCanadianBreakfast.png'),
     category: 'breakfast',
   },
   {
@@ -42,7 +42,7 @@ export const CASCADES_GUEST_STAY_DINING_MENU: CascadesGuestStayMenuItem[] = [
       'Freshly baked bagel topped with premium smoked salmon, whipped cream cheese, capers, red onions, and fresh dill for a light yet satisfying morning meal.',
     price: 17,
     prepTimeMin: 15,
-    image: require('../../../CascadesGuestStayAssets/SmokedSalmonBagel.png'),
+    image: require('../../../CascadesGuestStayAssets/GuestStaySmokedSalmonBagel.png'),
     category: 'breakfast',
   },
   {
@@ -52,7 +52,7 @@ export const CASCADES_GUEST_STAY_DINING_MENU: CascadesGuestStayMenuItem[] = [
       'Three fluffy pancakes served warm with Canadian maple syrup, fresh blueberries, whipped butter, and a light dusting of powdered sugar.',
     price: 15,
     prepTimeMin: 18,
-    image: require('../../../CascadesGuestStayAssets/BlueberryPancakeStack.png'),
+    image: require('../../../CascadesGuestStayAssets/GuestStayBlueberryPancakeStack.png'),
     category: 'breakfast',
   },
   {
@@ -62,7 +62,7 @@ export const CASCADES_GUEST_STAY_DINING_MENU: CascadesGuestStayMenuItem[] = [
       'Toasted artisan bread layered with smashed avocado, poached eggs, cherry tomatoes, microgreens, and a touch of lemon seasoning.',
     price: 16,
     prepTimeMin: 15,
-    image: require('../../../CascadesGuestStayAssets/AvocadoBreakfastToast.png'),
+    image: require('../../../CascadesGuestStayAssets/GuestStayAvocadoBreakfastToast.png'),
     category: 'breakfast',
   },
   {
@@ -72,7 +72,7 @@ export const CASCADES_GUEST_STAY_DINING_MENU: CascadesGuestStayMenuItem[] = [
       'A warm flour tortilla packed with scrambled eggs, sausage, cheddar cheese, peppers, onions, and house-made salsa for a flavorful start to the day.',
     price: 17,
     prepTimeMin: 20,
-    image: require('../../../CascadesGuestStayAssets/BreakfastBurrito.png'),
+    image: require('../../../CascadesGuestStayAssets/GuestStayBreakfastBurrito.png'),
     category: 'breakfast',
   },
   {
@@ -82,7 +82,7 @@ export const CASCADES_GUEST_STAY_DINING_MENU: CascadesGuestStayMenuItem[] = [
       'Juicy Angus beef burger topped with aged cheddar, lettuce, tomato, caramelized onions, and house sauce, served with crispy golden fries.',
     price: 24,
     prepTimeMin: 25,
-    image: require('../../../CascadesGuestStayAssets/CascadesSignatureBurger.png'),
+    image: require('../../../CascadesGuestStayAssets/GuestStayCascadesSignatureBurger.png'),
     category: 'lunch',
   },
   {
@@ -92,7 +92,7 @@ export const CASCADES_GUEST_STAY_DINING_MENU: CascadesGuestStayMenuItem[] = [
       'Fresh romaine lettuce tossed in creamy Caesar dressing with grilled chicken breast, parmesan cheese, garlic croutons, and cracked black pepper.',
     price: 21,
     prepTimeMin: 18,
-    image: require('../../../CascadesGuestStayAssets/GrilledChickenCaesarSalad.png'),
+    image: require('../../../CascadesGuestStayAssets/GuestStayGrilledChickenCaesarSalad.png'),
     category: 'lunch',
   },
   {
@@ -102,7 +102,7 @@ export const CASCADES_GUEST_STAY_DINING_MENU: CascadesGuestStayMenuItem[] = [
       'Grilled Pacific salmon served over steamed rice with seasonal vegetables, avocado, and a refreshing citrus glaze.',
     price: 27,
     prepTimeMin: 25,
-    image: require('../../../CascadesGuestStayAssets/PacificSalmonBowl.png'),
+    image: require('../../../CascadesGuestStayAssets/GuestStayPacificSalmonBowl.png'),
     category: 'lunch',
   },
   {
@@ -112,7 +112,7 @@ export const CASCADES_GUEST_STAY_DINING_MENU: CascadesGuestStayMenuItem[] = [
       'Tender slices of sirloin steak served on toasted artisan bread with sautéed onions, garlic aioli, and a side of seasoned fries.',
     price: 23,
     prepTimeMin: 22,
-    image: require('../../../CascadesGuestStayAssets/SteakSandwich.png'),
+    image: require('../../../CascadesGuestStayAssets/GuestStaySteakSandwich.png'),
     category: 'lunch',
   },
   {
@@ -122,7 +122,7 @@ export const CASCADES_GUEST_STAY_DINING_MENU: CascadesGuestStayMenuItem[] = [
       'Stone-baked flatbread topped with vine-ripened tomatoes, fresh mozzarella cheese, basil leaves, and extra virgin olive oil.',
     price: 19,
     prepTimeMin: 18,
-    image: require('../../../CascadesGuestStayAssets/MargheritaFlatbread.png'),
+    image: require('../../../CascadesGuestStayAssets/GuestStayMargheritaFlatbread.png'),
     category: 'lunch',
   },
   {
@@ -132,7 +132,7 @@ export const CASCADES_GUEST_STAY_DINING_MENU: CascadesGuestStayMenuItem[] = [
       'Hand-cut ribeye steak grilled to perfection and served with roasted seasonal vegetables, creamy mashed potatoes, and herb butter.',
     price: 42,
     prepTimeMin: 35,
-    image: require('../../../CascadesGuestStayAssets/PremiumRibeyeSteak.png'),
+    image: require('../../../CascadesGuestStayAssets/GuestStayPremiumRibeyeSteak.png'),
     category: 'dinner',
   },
   {
@@ -142,7 +142,7 @@ export const CASCADES_GUEST_STAY_DINING_MENU: CascadesGuestStayMenuItem[] = [
       'Oven-roasted Atlantic lobster tail brushed with garlic herb butter and accompanied by seasonal vegetables and lemon wedges.',
     price: 48,
     prepTimeMin: 40,
-    image: require('../../../CascadesGuestStayAssets/AtlanticLobsterTail.png'),
+    image: require('../../../CascadesGuestStayAssets/GuestStayAtlanticLobsterTail.png'),
     category: 'dinner',
   },
   {
@@ -152,7 +152,7 @@ export const CASCADES_GUEST_STAY_DINING_MENU: CascadesGuestStayMenuItem[] = [
       'Fresh salmon fillet coated with aromatic herbs and baked until tender, served with wild rice and seasonal vegetables.',
     price: 34,
     prepTimeMin: 30,
-    image: require('../../../CascadesGuestStayAssets/HerbCrustedSalmon.png'),
+    image: require('../../../CascadesGuestStayAssets/GuestStayHerbCrustedSalmon.png'),
     category: 'dinner',
   },
   {
@@ -162,7 +162,7 @@ export const CASCADES_GUEST_STAY_DINING_MENU: CascadesGuestStayMenuItem[] = [
       'Roasted chicken breast topped with a rich mushroom cream sauce, accompanied by roasted vegetables and herb-seasoned potatoes.',
     price: 29,
     prepTimeMin: 28,
-    image: require('../../../CascadesGuestStayAssets/ChickenSupreme.png'),
+    image: require('../../../CascadesGuestStayAssets/GuestStayChickenSupreme.png'),
     category: 'dinner',
   },
   {
@@ -172,7 +172,7 @@ export const CASCADES_GUEST_STAY_DINING_MENU: CascadesGuestStayMenuItem[] = [
       'Fresh pasta tossed in a creamy truffle sauce with sautéed mushrooms, parmesan cheese, and aromatic herbs.',
     price: 28,
     prepTimeMin: 25,
-    image: require('../../../CascadesGuestStayAssets/TruffleMushroomPasta.png'),
+    image: require('../../../CascadesGuestStayAssets/GuestStayTruffleMushroomPasta.png'),
     category: 'dinner',
   },
 ];

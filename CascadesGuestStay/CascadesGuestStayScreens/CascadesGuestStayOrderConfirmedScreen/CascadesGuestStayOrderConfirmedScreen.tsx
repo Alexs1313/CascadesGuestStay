@@ -10,11 +10,11 @@ import {
   cascadesGuestStayScale,
   cascadesGuestStayVerticalScale,
 } from '../../CascadesGuestStayConstants/CascadesGuestStayBase/CascadesGuestStayLayout/CascadesGuestStayLayout';
-import type {CascadesGuestStayHomeStackParamList} from '../../../CascadesGuestStayNav';
+import type {CascadesGuestStayStackParamList} from '../../CascadesGuestStayNavTypes';
 
 type CascadesGuestStayOrderConfirmedScreenProps = {
   navigation: StackNavigationProp<
-    CascadesGuestStayHomeStackParamList,
+    CascadesGuestStayStackParamList,
     'OrderConfirmed'
   >;
   route: {
@@ -40,7 +40,9 @@ export function CascadesGuestStayOrderConfirmedScreen({
         <CascadesGuestStayScreenHeader
           scrollable
           title="Order Confirmed"
-          onClose={() => navigation.popToTop()}
+          onClose={() =>
+            navigation.navigate('Main', {screen: 'HomeTab'})
+          }
         />
         <View style={styles.cascadesGuestStayCheck}>
           <Text style={styles.cascadesGuestStayCheckIcon}>✓</Text>
@@ -80,7 +82,7 @@ export function CascadesGuestStayOrderConfirmedScreen({
         </View>
 
         <Pressable
-          onPress={() => navigation.popToTop()}
+          onPress={() => navigation.navigate('Main', {screen: 'HomeTab'})}
           style={styles.cascadesGuestStayDone}>
           <Text style={styles.cascadesGuestStayDoneLabel}>Done</Text>
         </Pressable>

@@ -6,11 +6,11 @@ import {cascadesGuestStayFonts} from '../../../CascadesGuestStayConstants/Cascad
 import {cascadesGuestStayScale} from '../../../CascadesGuestStayConstants/CascadesGuestStayBase/CascadesGuestStayLayout/CascadesGuestStayLayout';
 
 const CASCADES_GUEST_STAY_TAB_ICONS = {
-  HomeTab: require('../../../CascadesGuestStayAssets/home.png'),
-  RequestsTab: require('../../../CascadesGuestStayAssets/requests.png'),
-  ExploreTab: require('../../../CascadesGuestStayAssets/explore.png'),
-  SavedTab: require('../../../CascadesGuestStayAssets/saved.png'),
-  MapTab: require('../../../CascadesGuestStayAssets/map.png'),
+  HomeTab: require('../../../CascadesGuestStayAssets/GuestStayhome.png'),
+  RequestsTab: require('../../../CascadesGuestStayAssets/GuestStayrequests.png'),
+  ExploreTab: require('../../../CascadesGuestStayAssets/GuestStayexplore.png'),
+  SavedTab: require('../../../CascadesGuestStayAssets/GuestStaysaved.png'),
+  MapTab: require('../../../CascadesGuestStayAssets/GuestStaymap.png'),
 } as const;
 
 const CASCADES_GUEST_STAY_TAB_LABELS: Record<string, string> = {
@@ -23,7 +23,6 @@ const CASCADES_GUEST_STAY_TAB_LABELS: Record<string, string> = {
 
 export function CascadesGuestStayTabBar({
   state,
-  descriptors,
   navigation,
 }: BottomTabBarProps) {
   return (

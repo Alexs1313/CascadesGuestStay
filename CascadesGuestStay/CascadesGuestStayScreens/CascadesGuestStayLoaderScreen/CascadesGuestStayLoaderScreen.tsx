@@ -19,7 +19,7 @@ export function CascadesGuestStayLoaderScreen() {
   return (
     <View style={styles.cascadesGuestStayContainer}>
       <ImageBackground
-        source={require('../../CascadesGuestStayAssets/background_loader.png')}
+        source={require('../../CascadesGuestStayAssets/GuestStaybackground_loader.png')}
         style={styles.cascadesGuestStayBackground}
         resizeMode="cover"
         blurRadius={2}
@@ -31,7 +31,7 @@ export function CascadesGuestStayLoaderScreen() {
         <View style={styles.cascadesGuestStayIconGlow}>
           <View style={styles.cascadesGuestStayIconCard}>
             <Image
-              source={require('../../CascadesGuestStayAssets/logo.png')}
+              source={require('../../CascadesGuestStayAssets/GuestStaylogo.png')}
               style={styles.cascadesGuestStayIcon}
               resizeMode="cover"
             />

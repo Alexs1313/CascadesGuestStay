@@ -45,7 +45,7 @@ export const CASCADES_GUEST_STAY_MAP_VENUES: CascadesGuestStayMapVenue[] = [
     rating: 4.7,
     latitude: 49.1048,
     longitude: -122.6612,
-    image: require('../../../CascadesGuestStayAssets/WillowbrookLanes.png'),
+    image: require('../../../CascadesGuestStayAssets/GuestStayWillowbrookLanes.png'),
   },
   {
     id: 'arcade-universe',
@@ -57,7 +57,7 @@ export const CASCADES_GUEST_STAY_MAP_VENUES: CascadesGuestStayMapVenue[] = [
     rating: 4.5,
     latitude: 49.1042,
     longitude: -122.6602,
-    image: require('../../../CascadesGuestStayAssets/ExtremeAirParkLangley.png'),
+    image: require('../../../CascadesGuestStayAssets/GuestStayExtremeAirParkLangley.png'),
   },
   {
     id: 'the-grand-stage',
@@ -69,7 +69,7 @@ export const CASCADES_GUEST_STAY_MAP_VENUES: CascadesGuestStayMapVenue[] = [
     rating: 4.9,
     latitude: 49.105,
     longitude: -122.6598,
-    image: require('../../../CascadesGuestStayAssets/LangleyEventsCentre.png'),
+    image: require('../../../CascadesGuestStayAssets/GuestStayLangleyEventsCentre.png'),
   },
   {
     id: 'jazz-blue-lounge',
@@ -81,7 +81,7 @@ export const CASCADES_GUEST_STAY_MAP_VENUES: CascadesGuestStayMapVenue[] = [
     rating: 4.8,
     latitude: 49.1043,
     longitude: -122.6615,
-    image: require('../../../CascadesGuestStayAssets/BezArtsHub.png'),
+    image: require('../../../CascadesGuestStayAssets/GuestStayBezArtsHub.png'),
   },
   {
     id: 'cascade-nightclub',
@@ -93,7 +93,7 @@ export const CASCADES_GUEST_STAY_MAP_VENUES: CascadesGuestStayMapVenue[] = [
     rating: 4.6,
     latitude: 49.1046,
     longitude: -122.66,
-    image: require('../../../CascadesGuestStayAssets/MatchEateryPublicHouse.png'),
+    image: require('../../../CascadesGuestStayAssets/GuestStayMatchEateryPublicHouse.png'),
   },
   {
     id: 'sky-lounge',
@@ -105,7 +105,7 @@ export const CASCADES_GUEST_STAY_MAP_VENUES: CascadesGuestStayMapVenue[] = [
     rating: 4.9,
     latitude: 49.1052,
     longitude: -122.6605,
-    image: require('../../../CascadesGuestStayAssets/AtlasSteakFishLounge.png'),
+    image: require('../../../CascadesGuestStayAssets/GuestStaySteakFishLounge.png'),
   },
   {
     id: 'resort-bar',
@@ -117,7 +117,7 @@ export const CASCADES_GUEST_STAY_MAP_VENUES: CascadesGuestStayMapVenue[] = [
     rating: 4.4,
     latitude: 49.104,
     longitude: -122.661,
-    image: require('../../../CascadesGuestStayAssets/StevensCocktailCornerBarKitchen.png'),
+    image: require('../../../CascadesGuestStayAssets/GuestStayStevensCocktailCornerBarKitchen.png'),
   },
 ];
 

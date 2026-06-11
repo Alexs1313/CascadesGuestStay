@@ -4,7 +4,7 @@ import {CascadesGuestStayMenuItem} from '../../../CascadesGuestStayConstants/Cas
 import {cascadesGuestStayColors} from '../../../CascadesGuestStayConstants/CascadesGuestStayBase/CascadesGuestStayTheme/CascadesGuestStayColors';
 import {cascadesGuestStayFonts} from '../../../CascadesGuestStayConstants/CascadesGuestStayBase/CascadesGuestStayTheme/CascadesGuestStayFonts';
 import {cascadesGuestStayScale} from '../../../CascadesGuestStayConstants/CascadesGuestStayBase/CascadesGuestStayLayout/CascadesGuestStayLayout';
-import {cascadesGuestStayFormatPrice} from '../../../../CascadesGuestStayUtils/CascadesGuestStayFormatting/CascadesGuestStayPrice/cascadesGuestStayFormatPrice';
+import {cascadesGuestStayFormatPrice} from '../../../CascadesGuestStayUtils/cascadesGuestStayFormatPrice';
 
 type CascadesGuestStayMenuItemCardProps = {
   item: CascadesGuestStayMenuItem;

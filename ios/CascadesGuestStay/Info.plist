@@ -9,7 +9,7 @@
 	<key>CFBundleExecutable</key>
 	<string>$(EXECUTABLE_NAME)</string>
 	<key>CFBundleIdentifier</key>
-	<string>com.sdfkndsf.adskjasiewo</string>
+	<string>com.dsfknkl.ldfflnlkasdkl</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleName</key>
@@ -35,19 +35,19 @@
 	<string></string>
 	<key>UIAppFonts</key>
 	<array>
-		<string>DMSans-Regular.ttf</string>
-		<string>DMSans-Medium.ttf</string>
-		<string>DMSans-SemiBoldItalic.ttf</string>
-		<string>DMSans-Bold.ttf</string>
-		<string>PlayfairDisplay-Bold.ttf</string>
-		<string>PlayfairDisplay-SemiBold.ttf</string>
-		<string>PlayfairDisplay-Medium.ttf</string>
-		<string>DMSans-SemiBold.ttf</string>
-		<string>PlayfairDisplay-Regular.ttf</string>
-		<string>DMSans-ExtraBold.ttf</string>
-		<string>PlayfairDisplay-Black.ttf</string>
-		<string>DMSans-Black.ttf</string>
-		<string>PlayfairDisplay-ExtraBold.ttf</string>
+		<string>GuestStayDMSans-Regular.ttf</string>
+		<string>GuestStayDMSans-Medium.ttf</string>
+		<string>GuestStayDMSans-SemiBoldItalic.ttf</string>
+		<string>GuestStayDMSans-Bold.ttf</string>
+		<string>GuestStayPlayfairDisplay-Bold.ttf</string>
+		<string>GuestStayPlayfairDisplay-SemiBold.ttf</string>
+		<string>GuestStayPlayfairDisplay-Medium.ttf</string>
+		<string>GuestStayDMSans-SemiBold.ttf</string>
+		<string>GuestStayPlayfairDisplay-Regular.ttf</string>
+		<string>GuestStayDMSans-ExtraBold.ttf</string>
+		<string>GuestStayPlayfairDisplay-Black.ttf</string>
+		<string>GuestStayDMSans-Black.ttf</string>
+		<string>GuestStayPlayfairDisplay-ExtraBold.ttf</string>
 	</array>
 	<key>UILaunchStoryboardName</key>
 	<string>LaunchScreen</string>

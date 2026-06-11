@@ -16,14 +16,11 @@ import {
   cascadesGuestStayScale,
   cascadesGuestStayVerticalScale,
 } from '../../CascadesGuestStayConstants/CascadesGuestStayBase/CascadesGuestStayLayout/CascadesGuestStayLayout';
-import {cascadesGuestStayFormatPrice} from '../../../CascadesGuestStayUtils/CascadesGuestStayFormatting/CascadesGuestStayPrice/cascadesGuestStayFormatPrice';
-import type {CascadesGuestStayHomeStackParamList} from '../../../CascadesGuestStayNav';
+import {cascadesGuestStayFormatPrice} from '../../CascadesGuestStayUtils/cascadesGuestStayFormatPrice';
+import type {CascadesGuestStayStackParamList} from '../../CascadesGuestStayNavTypes';
 
 type CascadesGuestStayRoomDiningScreenProps = {
-  navigation: StackNavigationProp<
-    CascadesGuestStayHomeStackParamList,
-    'RoomDining'
-  >;
+  navigation: StackNavigationProp<CascadesGuestStayStackParamList, 'RoomDining'>;
 };
 
 export function CascadesGuestStayRoomDiningScreen({

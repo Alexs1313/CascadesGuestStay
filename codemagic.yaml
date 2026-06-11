@@ -4,17 +4,17 @@ workflows:
     max_build_duration: 120
     instance_type: mac_mini_m2
     integrations:
-      app_store_connect: CascRannoSoosaarAPIKey
+      app_store_connect: Stay at Cascades Casino
     environment:
       xcode: '26.0'
       ios_signing:
         distribution_type: app_store
-        bundle_identifier: com.sdfkndsf.adskjasiewo
+        bundle_identifier: com.dsfknkl.ldfflnlkasdkl
       vars:
-        BUNDLE_ID: com.sdfkndsf.adskjasiewo
+        BUNDLE_ID: com.dsfknkl.ldfflnlkasdkl
         XCODE_WORKSPACE: CascadesGuestStay.xcworkspace
         XCODE_SCHEME: CascadesGuestStay
-        APP_STORE_APPLE_ID: 6778717380
+        APP_STORE_APPLE_ID: 6779118720
     scripts:
       - name: Install npm dependencies
         script: |
@@ -37,7 +37,7 @@ workflows:
           agvtool new-version -all $(($LATEST_BUILD_NUMBER + 1))
       - name: Set Info.plist values
         script: |
-          PLIST=$CM_BUILD_DIR/ios/KindaSuspiciousIdeas/Info.plist
+          PLIST=$CM_BUILD_DIR/ios/CascadesGuestStay/Info.plist
           PLIST_BUDDY=/usr/libexec/PlistBuddy
           $PLIST_BUDDY -c "Add :ITSAppUsesNonExemptEncryption bool false" $PLIST || \
           $PLIST_BUDDY -c "Set :ITSAppUsesNonExemptEncryption false" $PLIST

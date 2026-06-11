@@ -45,7 +45,7 @@ export function CascadesGuestStaySavedVenueCard({
           accessibilityLabel={`Remove ${venue.title}`}
           accessibilityRole="button">
           <Image
-            source={require('../../../CascadesGuestStayAssets/remove.png')}
+            source={require('../../../CascadesGuestStayAssets/GuestStayremove.png')}
           />
         </Pressable>
         <View style={styles.cascadesGuestStayImageTitles}>

@@ -15,21 +15,21 @@ export const CASCADES_GUEST_STAY_HOME_LOCATIONS: CascadesGuestStayLocationItem[]
       badge: 'TONIGHT',
       title: 'Live Jazz Night',
       subtitle: 'The Cascade Lounge',
-      image: require('../../../CascadesGuestStayAssets/StevensCocktailCornerBarKitchen.png'),
+      image: require('../../../CascadesGuestStayAssets/GuestStayStevensCocktailCornerBarKitchen.png'),
     },
     {
-      id: 'poker',
+      id: 'card-night',
       badge: 'SEATS AVAILABLE',
-      title: 'Poker Tournament',
+      title: 'Card Game Night',
       subtitle: 'Main Casino Floor',
-      image: require('../../../CascadesGuestStayAssets/MatchEateryPublicHouse.png'),
+      image: require('../../../CascadesGuestStayAssets/GuestStayMatchEateryPublicHouse.png'),
     },
     {
       id: 'rooftop',
       badge: 'NEW',
       title: 'Rooftop Bar Opens',
       subtitle: 'Sky Lounge Level 22',
-      image: require('../../../CascadesGuestStayAssets/KingTapsWillowbrook.png'),
+      image: require('../../../CascadesGuestStayAssets/GuestStayKingTapsWillowbrook.png'),
     },
   ];
 

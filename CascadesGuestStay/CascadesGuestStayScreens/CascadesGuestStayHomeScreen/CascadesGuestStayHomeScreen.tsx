@@ -11,7 +11,6 @@ import {useSafeAreaInsets} from 'react-native-safe-area-context';
 import {CompositeNavigationProp} from '@react-navigation/native';
 import type {BottomTabNavigationProp} from '@react-navigation/bottom-tabs';
 import type {StackNavigationProp} from '@react-navigation/stack';
-import type {CascadesGuestStayMainTabParamList} from '../../../CascadesGuestStayMainTabs';
 import {CascadesGuestStayGuestIdCard} from '../../CascadesGuestStayComponents/CascadesGuestStayHome/CascadesGuestStayGuestIdCard/CascadesGuestStayGuestIdCard';
 import {CascadesGuestStayQuickActionCard} from '../../CascadesGuestStayComponents/CascadesGuestStayHome/CascadesGuestStayQuickActionCard/CascadesGuestStayQuickActionCard';
 import {useCascadesGuestStayClimateSummary} from '../../CascadesGuestStayContext/CascadesGuestStayAppContext';
@@ -26,12 +25,15 @@ import {
   cascadesGuestStayScale,
   cascadesGuestStayVerticalScale,
 } from '../../CascadesGuestStayConstants/CascadesGuestStayBase/CascadesGuestStayLayout/CascadesGuestStayLayout';
-import type {CascadesGuestStayHomeStackParamList} from '../../../CascadesGuestStayNav';
+import type {
+  CascadesGuestStayMainTabParamList,
+  CascadesGuestStayStackParamList,
+} from '../../CascadesGuestStayNavTypes';
 
 type CascadesGuestStayHomeScreenProps = {
   navigation: CompositeNavigationProp<
-    StackNavigationProp<CascadesGuestStayHomeStackParamList, 'Home'>,
-    BottomTabNavigationProp<CascadesGuestStayMainTabParamList>
+    BottomTabNavigationProp<CascadesGuestStayMainTabParamList, 'HomeTab'>,
+    StackNavigationProp<CascadesGuestStayStackParamList>
   >;
 };
 
@@ -52,7 +54,7 @@ export function CascadesGuestStayHomeScreen({
         <View style={styles.cascadesGuestStayTopBar}>
           <View style={styles.cascadesGuestStayBrand}>
             <Image
-              source={require('../../CascadesGuestStayAssets/homelogo.png')}
+              source={require('../../CascadesGuestStayAssets/GuestStayhomelogo.png')}
               style={styles.cascadesGuestStayLogo}
               resizeMode="contain"
             />

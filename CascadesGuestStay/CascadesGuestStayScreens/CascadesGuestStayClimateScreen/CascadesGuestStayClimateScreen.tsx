@@ -27,13 +27,10 @@ import {
   cascadesGuestStayScale,
   cascadesGuestStayVerticalScale,
 } from '../../CascadesGuestStayConstants/CascadesGuestStayBase/CascadesGuestStayLayout/CascadesGuestStayLayout';
-import type {CascadesGuestStayHomeStackParamList} from '../../../CascadesGuestStayNav';
+import type {CascadesGuestStayStackParamList} from '../../CascadesGuestStayNavTypes';
 
 type CascadesGuestStayClimateScreenProps = {
-  navigation: StackNavigationProp<
-    CascadesGuestStayHomeStackParamList,
-    'Climate'
-  >;
+  navigation: StackNavigationProp<CascadesGuestStayStackParamList, 'Climate'>;
 };
 
 export function CascadesGuestStayClimateScreen({
@@ -97,7 +94,7 @@ export function CascadesGuestStayClimateScreen({
             <Text style={styles.cascadesGuestStayDialUnit}>°C</Text>
 
             <Image
-              source={require('../../CascadesGuestStayAssets/frame.png')}
+              source={require('../../CascadesGuestStayAssets/GuestStayframe.png')}
               style={{
                 position: 'absolute',
 

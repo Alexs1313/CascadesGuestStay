@@ -50,7 +50,7 @@ export const CASCADES_GUEST_STAY_EXPLORE_VENUES: CascadesGuestStayVenue[] = [
     description:
       'One of Langley\'s most popular escape room venues. Guests can choose from several immersive themed rooms featuring puzzles, hidden clues, and interactive challenges suitable for families, friends, and team-building groups.',
     category: 'familyFun',
-    image: require('../../../CascadesGuestStayAssets/TheGreatEscape.png'),
+    image: require('../../../CascadesGuestStayAssets/GuestStayTheGreatEscape.png'),
     latitude: 49.1047,
     longitude: -122.6608,
     rating: 4.8,
@@ -66,7 +66,7 @@ export const CASCADES_GUEST_STAY_EXPLORE_VENUES: CascadesGuestStayVenue[] = [
     description:
       'Large indoor trampoline and activity center offering wall-to-wall trampolines, foam pits, dodgeball courts, climbing attractions, and dedicated family zones. A great destination for active entertainment regardless of weather.',
     category: 'familyFun',
-    image: require('../../../CascadesGuestStayAssets/ExtremeAirParkLangley.png'),
+    image: require('../../../CascadesGuestStayAssets/GuestStayExtremeAirParkLangley.png'),
     latitude: 49.1143,
     longitude: -122.6691,
     rating: 4.6,
@@ -82,7 +82,7 @@ export const CASCADES_GUEST_STAY_EXPLORE_VENUES: CascadesGuestStayVenue[] = [
     description:
       'Modern bowling center featuring multiple lanes, arcade games, food services, and family-friendly entertainment. Ideal for casual games, group outings, and evening recreation.',
     category: 'familyFun',
-    image: require('../../../CascadesGuestStayAssets/WillowbrookLanes.png'),
+    image: require('../../../CascadesGuestStayAssets/GuestStayWillowbrookLanes.png'),
     latitude: 49.1149,
     longitude: -122.6767,
     rating: 4.5,
@@ -98,7 +98,7 @@ export const CASCADES_GUEST_STAY_EXPLORE_VENUES: CascadesGuestStayVenue[] = [
     description:
       'Interactive aviation museum located at Langley Regional Airport. Visitors can explore historic aircraft, aviation exhibits, helicopters, and educational displays that appeal to both children and adults.',
     category: 'familyFun',
-    image: require('../../../CascadesGuestStayAssets/CanadianMuseumOfFlight.png'),
+    image: require('../../../CascadesGuestStayAssets/GuestStayCanadianMuseumOfFlight.png'),
     latitude: 49.1008,
     longitude: -122.6308,
     rating: 4.7,
@@ -114,7 +114,7 @@ export const CASCADES_GUEST_STAY_EXPLORE_VENUES: CascadesGuestStayVenue[] = [
     description:
       'A large multi-purpose sports and entertainment complex hosting sporting events, gymnastics competitions, community activities, family programs, and special seasonal events throughout the year.',
     category: 'familyFun',
-    image: require('../../../CascadesGuestStayAssets/LangleyEventsCentre.png'),
+    image: require('../../../CascadesGuestStayAssets/GuestStayLangleyEventsCentre.png'),
     latitude: 49.1336,
     longitude: -122.6615,
     rating: 4.4,
@@ -130,7 +130,7 @@ export const CASCADES_GUEST_STAY_EXPLORE_VENUES: CascadesGuestStayVenue[] = [
     description:
       'One of the last remaining drive-in movie theaters in British Columbia. Families can enjoy movies from the comfort of their vehicle while experiencing a classic outdoor cinema atmosphere.',
     category: 'familyFun',
-    image: require('../../../CascadesGuestStayAssets/TwilightDriveInTheatre.png'),
+    image: require('../../../CascadesGuestStayAssets/GuestStayTwilightDriveInTheatre.png'),
     latitude: 49.0169,
     longitude: -122.4848,
     rating: 4.6,
@@ -146,7 +146,7 @@ export const CASCADES_GUEST_STAY_EXPLORE_VENUES: CascadesGuestStayVenue[] = [
     description:
       'The largest entertainment and event venue in Langley. It hosts major sporting events, concerts, community festivals, exhibitions, tournaments, and large-scale live performances throughout the year.',
     category: 'liveShows',
-    image: require('../../../CascadesGuestStayAssets/LangleyEventsCentre-1.png'),
+    image: require('../../../CascadesGuestStayAssets/GuestStayLangleyEventsCentre-1.png'),
     latitude: 49.1468,
     longitude: -122.6697,
     rating: 4.5,
@@ -162,7 +162,7 @@ export const CASCADES_GUEST_STAY_EXPLORE_VENUES: CascadesGuestStayVenue[] = [
     description:
       'A unique dinner theatre venue offering live musical productions, comedy performances, seasonal shows, and interactive entertainment in an intimate countryside setting.',
     category: 'liveShows',
-    image: require('../../../CascadesGuestStayAssets/TheatreInTheCountry.png'),
+    image: require('../../../CascadesGuestStayAssets/GuestStayTheatreInTheCountry.png'),
     latitude: 49.1037,
     longitude: -122.6578,
     rating: 4.8,
@@ -178,7 +178,7 @@ export const CASCADES_GUEST_STAY_EXPLORE_VENUES: CascadesGuestStayVenue[] = [
     description:
       'A modern arts and performance venue featuring live music concerts, cultural events, community performances, workshops, and intimate entertainment experiences.',
     category: 'liveShows',
-    image: require('../../../CascadesGuestStayAssets/BezArtsHub.png'),
+    image: require('../../../CascadesGuestStayAssets/GuestStayBezArtsHub.png'),
     latitude: 49.1195,
     longitude: -122.656,
     rating: 4.7,
@@ -194,7 +194,7 @@ export const CASCADES_GUEST_STAY_EXPLORE_VENUES: CascadesGuestStayVenue[] = [
     description:
       'An outdoor community performance space in downtown Langley that regularly hosts concerts, cultural celebrations, public performances, seasonal festivals, and special community events.',
     category: 'liveShows',
-    image: require('../../../CascadesGuestStayAssets/SpiritSquare.png'),
+    image: require('../../../CascadesGuestStayAssets/GuestStaySpiritSquare.png'),
     latitude: 49.1041,
     longitude: -122.6602,
     rating: 4.3,
@@ -210,7 +210,7 @@ export const CASCADES_GUEST_STAY_EXPLORE_VENUES: CascadesGuestStayVenue[] = [
     description:
       'A concert and performing arts venue located within the Langley Community Music School. It hosts classical music performances, recitals, cultural programs, and special artistic events throughout the year.',
     category: 'liveShows',
-    image: require('../../../CascadesGuestStayAssets/RoseGellertHall.png'),
+    image: require('../../../CascadesGuestStayAssets/GuestStayRoseGellertHall.png'),
     latitude: 49.0908,
     longitude: -122.6609,
     rating: 4.6,
@@ -226,7 +226,7 @@ export const CASCADES_GUEST_STAY_EXPLORE_VENUES: CascadesGuestStayVenue[] = [
     description:
       'A major convention and event venue connected to Cascades Casino Resort. It hosts live entertainment, corporate events, banquets, conferences, special shows, and community gatherings.',
     category: 'liveShows',
-    image: require('../../../CascadesGuestStayAssets/CoastLangleyCityHotelConventionCentre.png'),
+    image: require('../../../CascadesGuestStayAssets/GuestStayCoastLangleyCityHotelConventionCentre.png'),
     latitude: 49.1045,
     longitude: -122.6607,
     rating: 4.4,
@@ -242,7 +242,7 @@ export const CASCADES_GUEST_STAY_EXPLORE_VENUES: CascadesGuestStayVenue[] = [
     description:
       'A lively social venue located inside Cascades Casino Resort. Guests can enjoy sports broadcasts, signature cocktails, live entertainment nights, and a vibrant atmosphere that makes it one of the most popular evening destinations in Langley.',
     category: 'nightlife',
-    image: require('../../../CascadesGuestStayAssets/MatchEateryPublicHouse.png'),
+    image: require('../../../CascadesGuestStayAssets/GuestStayMatchEateryPublicHouse.png'),
     latitude: 49.1045,
     longitude: -122.6607,
     rating: 4.5,
@@ -258,7 +258,7 @@ export const CASCADES_GUEST_STAY_EXPLORE_VENUES: CascadesGuestStayVenue[] = [
     description:
       'A trendy downtown cocktail destination known for its creative drinks, stylish interior, social atmosphere, and modern dining experience. Popular among locals looking for an upscale night out.',
     category: 'nightlife',
-    image: require('../../../CascadesGuestStayAssets/StevensCocktailCornerBarKitchen.png'),
+    image: require('../../../CascadesGuestStayAssets/GuestStayStevensCocktailCornerBarKitchen.png'),
     latitude: 49.1049,
     longitude: -122.6599,
     rating: 4.6,
@@ -274,7 +274,7 @@ export const CASCADES_GUEST_STAY_EXPLORE_VENUES: CascadesGuestStayVenue[] = [
     description:
       'A modern social hotspot featuring craft beers, signature cocktails, large-screen sports viewing, and a spacious patio. The energetic atmosphere makes it a favorite gathering place during evenings and weekends.',
     category: 'nightlife',
-    image: require('../../../CascadesGuestStayAssets/KingTapsWillowbrook.png'),
+    image: require('../../../CascadesGuestStayAssets/GuestStayKingTapsWillowbrook.png'),
     latitude: 49.1142,
     longitude: -122.6695,
     rating: 4.4,
@@ -288,9 +288,9 @@ export const CASCADES_GUEST_STAY_EXPLORE_VENUES: CascadesGuestStayVenue[] = [
     title: 'Rendezvous Pub',
     subtitle: 'Neighborhood Pub',
     description:
-      'A long-standing neighborhood pub offering live music, themed events, bingo nights, game nights, and a welcoming social environment. A great location for casual nightlife and meeting locals.',
+      'A long-standing neighborhood pub offering live music, themed events, game nights, and a welcoming social environment. A great location for casual nightlife and meeting locals.',
     category: 'nightlife',
-    image: require('../../../CascadesGuestStayAssets/RendezvousPub.png'),
+    image: require('../../../CascadesGuestStayAssets/GuestStayRendezvousPub.png'),
     latitude: 49.1038,
     longitude: -122.6692,
     rating: 4.3,
@@ -306,7 +306,7 @@ export const CASCADES_GUEST_STAY_EXPLORE_VENUES: CascadesGuestStayVenue[] = [
     description:
       'Popular evening destination featuring live entertainment, lounge-style seating, drinks, and social gatherings. The relaxed atmosphere attracts both visitors and local residents looking for a fun night out.',
     category: 'nightlife',
-    image: require('../../../CascadesGuestStayAssets/NewlandsBarGrill.png'),
+    image: require('../../../CascadesGuestStayAssets/GuestStayNewlandsBarGrill.png'),
     latitude: 49.0898,
     longitude: -122.6635,
     rating: 4.2,
@@ -316,13 +316,13 @@ export const CASCADES_GUEST_STAY_EXPLORE_VENUES: CascadesGuestStayVenue[] = [
     tags: ['Lounge', 'Live Music', 'Grill'],
   },
   {
-    id: 'atlas-steak-fish',
-    title: 'Atlas Steak + Fish Lounge',
+    id: 'steak-fish-lounge',
+    title: 'Steak + Fish Lounge',
     subtitle: 'Cocktail Lounge',
     description:
       'An upscale cocktail and dining lounge located within Cascades Casino Resort. Known for premium cocktails, elegant surroundings, and sophisticated evening experiences suitable for guests seeking a refined social atmosphere.',
     category: 'nightlife',
-    image: require('../../../CascadesGuestStayAssets/AtlasSteakFishLounge.png'),
+    image: require('../../../CascadesGuestStayAssets/GuestStaySteakFishLounge.png'),
     latitude: 49.1045,
     longitude: -122.6607,
     rating: 4.7,
