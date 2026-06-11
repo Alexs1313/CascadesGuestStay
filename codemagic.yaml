@@ -4,17 +4,17 @@ workflows:
     max_build_duration: 120
     instance_type: mac_mini_m2
     integrations:
-      app_store_connect: Stay at Cascades Casino
+      app_store_connect: StayAtCascadesAPIKey
     environment:
       xcode: '26.0'
       ios_signing:
         distribution_type: app_store
-        bundle_identifier: com.dsfknkl.ldfflnlkasdkl
+        bundle_identifier: com.dfkjadck.stayatcascades
       vars:
-        BUNDLE_ID: com.dsfknkl.ldfflnlkasdkl
+        BUNDLE_ID: com.dfkjadck.stayatcascades
         XCODE_WORKSPACE: CascadesGuestStay.xcworkspace
         XCODE_SCHEME: CascadesGuestStay
-        APP_STORE_APPLE_ID: 6779118720
+        APP_STORE_APPLE_ID: 6779375330
     scripts:
       - name: Install npm dependencies
         script: |

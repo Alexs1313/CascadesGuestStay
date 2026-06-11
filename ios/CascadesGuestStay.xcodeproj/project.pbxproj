@@ -7,49 +7,49 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0218A3C8843F44CD9B60D67B /* GuestStayDMSans-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C3DCCB5FDF5F4E86A53B2FE7 /* GuestStayDMSans-Black.ttf */; };
-		0ABADE90986F44C6B5BE5A90 /* GuestStayPlayfairDisplay-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 10B96AB69EDE4760870D8109 /* GuestStayPlayfairDisplay-SemiBold.ttf */; };
+		0218A3C8843F44CD9B60D67B /* guest_stay_font_sans_black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C3DCCB5FDF5F4E86A53B2FE7 /* guest_stay_font_sans_black.ttf */; };
+		0ABADE90986F44C6B5BE5A90 /* guest_stay_font_serif_semibold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 10B96AB69EDE4760870D8109 /* guest_stay_font_serif_semibold.ttf */; };
 		0C80B921A6F3F58F76C31292 /* libPods-CascadesGuestStay.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DCACB8F33CDC322A6C60F78 /* libPods-CascadesGuestStay.a */; };
-		0EDA5C76EF094770BE373221 /* GuestStayDMSans-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3D3B7151085A4B5F8AAC11D2 /* GuestStayDMSans-SemiBold.ttf */; };
+		0EDA5C76EF094770BE373221 /* guest_stay_font_sans_semibold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3D3B7151085A4B5F8AAC11D2 /* guest_stay_font_sans_semibold.ttf */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
-		1C70226FAA654164BA05B951 /* GuestStayPlayfairDisplay-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0097D946D7884C58AC8E85FF /* GuestStayPlayfairDisplay-Regular.ttf */; };
+		1C70226FAA654164BA05B951 /* guest_stay_font_serif_regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0097D946D7884C58AC8E85FF /* guest_stay_font_serif_regular.ttf */; };
 		761780ED2CA45674006654EE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 761780EC2CA45674006654EE /* AppDelegate.swift */; };
-		77B4F62FF4E14CC0BCB8554A /* GuestStayDMSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 684BBFF2A8FB48DE8C8AC432 /* GuestStayDMSans-Regular.ttf */; };
-		7F6B14B2750D4426B40B5B70 /* GuestStayDMSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 59A06AB6DC7A41299C706292 /* GuestStayDMSans-Bold.ttf */; };
+		77B4F62FF4E14CC0BCB8554A /* guest_stay_font_sans_regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 684BBFF2A8FB48DE8C8AC432 /* guest_stay_font_sans_regular.ttf */; };
+		7F6B14B2750D4426B40B5B70 /* guest_stay_font_sans_bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 59A06AB6DC7A41299C706292 /* guest_stay_font_sans_bold.ttf */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
-		A5848514F3784506BE1590FD /* GuestStayDMSans-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 46BF406305A7435E944EAB19 /* GuestStayDMSans-Medium.ttf */; };
-		B39444BA94B441368EF60A34 /* GuestStayPlayfairDisplay-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5B1EA21844354A86874BAB89 /* GuestStayPlayfairDisplay-Medium.ttf */; };
-		BAFBBD125D8341CD8B3F9B72 /* GuestStayPlayfairDisplay-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E380054E657A40B6A5F25990 /* GuestStayPlayfairDisplay-Bold.ttf */; };
+		A5848514F3784506BE1590FD /* guest_stay_font_sans_medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 46BF406305A7435E944EAB19 /* guest_stay_font_sans_medium.ttf */; };
+		B39444BA94B441368EF60A34 /* guest_stay_font_serif_medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5B1EA21844354A86874BAB89 /* guest_stay_font_serif_medium.ttf */; };
+		BAFBBD125D8341CD8B3F9B72 /* guest_stay_font_serif_bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E380054E657A40B6A5F25990 /* guest_stay_font_serif_bold.ttf */; };
 		C0C14FE8783BF697C1302CC3 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB81A68108700A75B9A /* PrivacyInfo.xcprivacy */; };
-		D1AA9AB05D74411691F058C4 /* GuestStayPlayfairDisplay-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 96ECA422D70745B59EB06E01 /* GuestStayPlayfairDisplay-Black.ttf */; };
-		EF781E0FFAA446A7B15C3C9E /* GuestStayPlayfairDisplay-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 49541C0038E5478EB16338A4 /* GuestStayPlayfairDisplay-ExtraBold.ttf */; };
-		F0750D619BFB4C25AD082949 /* GuestStayDMSans-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E44980845B7C4D35A11D109E /* GuestStayDMSans-ExtraBold.ttf */; };
-		FD412076097B4F2D8E6D5579 /* GuestStayDMSans-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8DBEF97D8D2E40EC82E47243 /* GuestStayDMSans-SemiBoldItalic.ttf */; };
+		D1AA9AB05D74411691F058C4 /* guest_stay_font_serif_black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 96ECA422D70745B59EB06E01 /* guest_stay_font_serif_black.ttf */; };
+		EF781E0FFAA446A7B15C3C9E /* guest_stay_font_serif_extrabold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 49541C0038E5478EB16338A4 /* guest_stay_font_serif_extrabold.ttf */; };
+		F0750D619BFB4C25AD082949 /* guest_stay_font_sans_extrabold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E44980845B7C4D35A11D109E /* guest_stay_font_sans_extrabold.ttf */; };
+		FD412076097B4F2D8E6D5579 /* guest_stay_font_sans_semibold_italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8DBEF97D8D2E40EC82E47243 /* guest_stay_font_sans_semibold_italic.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		0097D946D7884C58AC8E85FF /* GuestStayPlayfairDisplay-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "GuestStayPlayfairDisplay-Regular.ttf"; path = "../CascadesGuestStay/CascadesGuestStayAssets/fonts/GuestStayPlayfairDisplay-Regular.ttf"; sourceTree = "<group>"; };
-		10B96AB69EDE4760870D8109 /* GuestStayPlayfairDisplay-SemiBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "GuestStayPlayfairDisplay-SemiBold.ttf"; path = "../CascadesGuestStay/CascadesGuestStayAssets/fonts/GuestStayPlayfairDisplay-SemiBold.ttf"; sourceTree = "<group>"; };
+		0097D946D7884C58AC8E85FF /* guest_stay_font_serif_regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = guest_stay_font_serif_regular.ttf; path = ../src/assets/fonts/guest_stay_font_serif_regular.ttf; sourceTree = "<group>"; };
+		10B96AB69EDE4760870D8109 /* guest_stay_font_serif_semibold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = guest_stay_font_serif_semibold.ttf; path = ../src/assets/fonts/guest_stay_font_serif_semibold.ttf; sourceTree = "<group>"; };
 		13B07F961A680F5B00A75B9A /* CascadesGuestStay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CascadesGuestStay.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = CascadesGuestStay/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = CascadesGuestStay/Info.plist; sourceTree = "<group>"; };
 		13B07FB81A68108700A75B9A /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = PrivacyInfo.xcprivacy; path = CascadesGuestStay/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
 		3B4392A12AC88292D35C810B /* Pods-CascadesGuestStay.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CascadesGuestStay.debug.xcconfig"; path = "Target Support Files/Pods-CascadesGuestStay/Pods-CascadesGuestStay.debug.xcconfig"; sourceTree = "<group>"; };
-		3D3B7151085A4B5F8AAC11D2 /* GuestStayDMSans-SemiBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "GuestStayDMSans-SemiBold.ttf"; path = "../CascadesGuestStay/CascadesGuestStayAssets/fonts/GuestStayDMSans-SemiBold.ttf"; sourceTree = "<group>"; };
-		46BF406305A7435E944EAB19 /* GuestStayDMSans-Medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "GuestStayDMSans-Medium.ttf"; path = "../CascadesGuestStay/CascadesGuestStayAssets/fonts/GuestStayDMSans-Medium.ttf"; sourceTree = "<group>"; };
-		49541C0038E5478EB16338A4 /* GuestStayPlayfairDisplay-ExtraBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "GuestStayPlayfairDisplay-ExtraBold.ttf"; path = "../CascadesGuestStay/CascadesGuestStayAssets/fonts/GuestStayPlayfairDisplay-ExtraBold.ttf"; sourceTree = "<group>"; };
+		3D3B7151085A4B5F8AAC11D2 /* guest_stay_font_sans_semibold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = guest_stay_font_sans_semibold.ttf; path = ../src/assets/fonts/guest_stay_font_sans_semibold.ttf; sourceTree = "<group>"; };
+		46BF406305A7435E944EAB19 /* guest_stay_font_sans_medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = guest_stay_font_sans_medium.ttf; path = ../src/assets/fonts/guest_stay_font_sans_medium.ttf; sourceTree = "<group>"; };
+		49541C0038E5478EB16338A4 /* guest_stay_font_serif_extrabold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = guest_stay_font_serif_extrabold.ttf; path = ../src/assets/fonts/guest_stay_font_serif_extrabold.ttf; sourceTree = "<group>"; };
 		5709B34CF0A7D63546082F79 /* Pods-CascadesGuestStay.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CascadesGuestStay.release.xcconfig"; path = "Target Support Files/Pods-CascadesGuestStay/Pods-CascadesGuestStay.release.xcconfig"; sourceTree = "<group>"; };
-		59A06AB6DC7A41299C706292 /* GuestStayDMSans-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "GuestStayDMSans-Bold.ttf"; path = "../CascadesGuestStay/CascadesGuestStayAssets/fonts/GuestStayDMSans-Bold.ttf"; sourceTree = "<group>"; };
-		5B1EA21844354A86874BAB89 /* GuestStayPlayfairDisplay-Medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "GuestStayPlayfairDisplay-Medium.ttf"; path = "../CascadesGuestStay/CascadesGuestStayAssets/fonts/GuestStayPlayfairDisplay-Medium.ttf"; sourceTree = "<group>"; };
+		59A06AB6DC7A41299C706292 /* guest_stay_font_sans_bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = guest_stay_font_sans_bold.ttf; path = ../src/assets/fonts/guest_stay_font_sans_bold.ttf; sourceTree = "<group>"; };
+		5B1EA21844354A86874BAB89 /* guest_stay_font_serif_medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = guest_stay_font_serif_medium.ttf; path = ../src/assets/fonts/guest_stay_font_serif_medium.ttf; sourceTree = "<group>"; };
 		5DCACB8F33CDC322A6C60F78 /* libPods-CascadesGuestStay.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CascadesGuestStay.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		684BBFF2A8FB48DE8C8AC432 /* GuestStayDMSans-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "GuestStayDMSans-Regular.ttf"; path = "../CascadesGuestStay/CascadesGuestStayAssets/fonts/GuestStayDMSans-Regular.ttf"; sourceTree = "<group>"; };
+		684BBFF2A8FB48DE8C8AC432 /* guest_stay_font_sans_regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = guest_stay_font_sans_regular.ttf; path = ../src/assets/fonts/guest_stay_font_sans_regular.ttf; sourceTree = "<group>"; };
 		761780EC2CA45674006654EE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = CascadesGuestStay/AppDelegate.swift; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = CascadesGuestStay/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		8DBEF97D8D2E40EC82E47243 /* GuestStayDMSans-SemiBoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "GuestStayDMSans-SemiBoldItalic.ttf"; path = "../CascadesGuestStay/CascadesGuestStayAssets/fonts/GuestStayDMSans-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
-		96ECA422D70745B59EB06E01 /* GuestStayPlayfairDisplay-Black.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "GuestStayPlayfairDisplay-Black.ttf"; path = "../CascadesGuestStay/CascadesGuestStayAssets/fonts/GuestStayPlayfairDisplay-Black.ttf"; sourceTree = "<group>"; };
-		C3DCCB5FDF5F4E86A53B2FE7 /* GuestStayDMSans-Black.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "GuestStayDMSans-Black.ttf"; path = "../CascadesGuestStay/CascadesGuestStayAssets/fonts/GuestStayDMSans-Black.ttf"; sourceTree = "<group>"; };
-		E380054E657A40B6A5F25990 /* GuestStayPlayfairDisplay-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "GuestStayPlayfairDisplay-Bold.ttf"; path = "../CascadesGuestStay/CascadesGuestStayAssets/fonts/GuestStayPlayfairDisplay-Bold.ttf"; sourceTree = "<group>"; };
-		E44980845B7C4D35A11D109E /* GuestStayDMSans-ExtraBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "GuestStayDMSans-ExtraBold.ttf"; path = "../CascadesGuestStay/CascadesGuestStayAssets/fonts/GuestStayDMSans-ExtraBold.ttf"; sourceTree = "<group>"; };
+		8DBEF97D8D2E40EC82E47243 /* guest_stay_font_sans_semibold_italic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = guest_stay_font_sans_semibold_italic.ttf; path = ../src/assets/fonts/guest_stay_font_sans_semibold_italic.ttf; sourceTree = "<group>"; };
+		96ECA422D70745B59EB06E01 /* guest_stay_font_serif_black.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = guest_stay_font_serif_black.ttf; path = ../src/assets/fonts/guest_stay_font_serif_black.ttf; sourceTree = "<group>"; };
+		C3DCCB5FDF5F4E86A53B2FE7 /* guest_stay_font_sans_black.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = guest_stay_font_sans_black.ttf; path = ../src/assets/fonts/guest_stay_font_sans_black.ttf; sourceTree = "<group>"; };
+		E380054E657A40B6A5F25990 /* guest_stay_font_serif_bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = guest_stay_font_serif_bold.ttf; path = ../src/assets/fonts/guest_stay_font_serif_bold.ttf; sourceTree = "<group>"; };
+		E44980845B7C4D35A11D109E /* guest_stay_font_sans_extrabold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = guest_stay_font_sans_extrabold.ttf; path = ../src/assets/fonts/guest_stay_font_sans_extrabold.ttf; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
@@ -89,19 +89,19 @@
 		61BD522A4401400EA759F500 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				684BBFF2A8FB48DE8C8AC432 /* GuestStayDMSans-Regular.ttf */,
-				46BF406305A7435E944EAB19 /* GuestStayDMSans-Medium.ttf */,
-				8DBEF97D8D2E40EC82E47243 /* GuestStayDMSans-SemiBoldItalic.ttf */,
-				59A06AB6DC7A41299C706292 /* GuestStayDMSans-Bold.ttf */,
-				E380054E657A40B6A5F25990 /* GuestStayPlayfairDisplay-Bold.ttf */,
-				10B96AB69EDE4760870D8109 /* GuestStayPlayfairDisplay-SemiBold.ttf */,
-				5B1EA21844354A86874BAB89 /* GuestStayPlayfairDisplay-Medium.ttf */,
-				3D3B7151085A4B5F8AAC11D2 /* GuestStayDMSans-SemiBold.ttf */,
-				0097D946D7884C58AC8E85FF /* GuestStayPlayfairDisplay-Regular.ttf */,
-				E44980845B7C4D35A11D109E /* GuestStayDMSans-ExtraBold.ttf */,
-				96ECA422D70745B59EB06E01 /* GuestStayPlayfairDisplay-Black.ttf */,
-				C3DCCB5FDF5F4E86A53B2FE7 /* GuestStayDMSans-Black.ttf */,
-				49541C0038E5478EB16338A4 /* GuestStayPlayfairDisplay-ExtraBold.ttf */,
+				684BBFF2A8FB48DE8C8AC432 /* guest_stay_font_sans_regular.ttf */,
+				46BF406305A7435E944EAB19 /* guest_stay_font_sans_medium.ttf */,
+				8DBEF97D8D2E40EC82E47243 /* guest_stay_font_sans_semibold_italic.ttf */,
+				59A06AB6DC7A41299C706292 /* guest_stay_font_sans_bold.ttf */,
+				E380054E657A40B6A5F25990 /* guest_stay_font_serif_bold.ttf */,
+				10B96AB69EDE4760870D8109 /* guest_stay_font_serif_semibold.ttf */,
+				5B1EA21844354A86874BAB89 /* guest_stay_font_serif_medium.ttf */,
+				3D3B7151085A4B5F8AAC11D2 /* guest_stay_font_sans_semibold.ttf */,
+				0097D946D7884C58AC8E85FF /* guest_stay_font_serif_regular.ttf */,
+				E44980845B7C4D35A11D109E /* guest_stay_font_sans_extrabold.ttf */,
+				96ECA422D70745B59EB06E01 /* guest_stay_font_serif_black.ttf */,
+				C3DCCB5FDF5F4E86A53B2FE7 /* guest_stay_font_sans_black.ttf */,
+				49541C0038E5478EB16338A4 /* guest_stay_font_serif_extrabold.ttf */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -208,19 +208,19 @@
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 				C0C14FE8783BF697C1302CC3 /* PrivacyInfo.xcprivacy in Resources */,
-				77B4F62FF4E14CC0BCB8554A /* GuestStayDMSans-Regular.ttf in Resources */,
-				A5848514F3784506BE1590FD /* GuestStayDMSans-Medium.ttf in Resources */,
-				FD412076097B4F2D8E6D5579 /* GuestStayDMSans-SemiBoldItalic.ttf in Resources */,
-				7F6B14B2750D4426B40B5B70 /* GuestStayDMSans-Bold.ttf in Resources */,
-				BAFBBD125D8341CD8B3F9B72 /* GuestStayPlayfairDisplay-Bold.ttf in Resources */,
-				0ABADE90986F44C6B5BE5A90 /* GuestStayPlayfairDisplay-SemiBold.ttf in Resources */,
-				B39444BA94B441368EF60A34 /* GuestStayPlayfairDisplay-Medium.ttf in Resources */,
-				0EDA5C76EF094770BE373221 /* GuestStayDMSans-SemiBold.ttf in Resources */,
-				1C70226FAA654164BA05B951 /* GuestStayPlayfairDisplay-Regular.ttf in Resources */,
-				F0750D619BFB4C25AD082949 /* GuestStayDMSans-ExtraBold.ttf in Resources */,
-				D1AA9AB05D74411691F058C4 /* GuestStayPlayfairDisplay-Black.ttf in Resources */,
-				0218A3C8843F44CD9B60D67B /* GuestStayDMSans-Black.ttf in Resources */,
-				EF781E0FFAA446A7B15C3C9E /* GuestStayPlayfairDisplay-ExtraBold.ttf in Resources */,
+				77B4F62FF4E14CC0BCB8554A /* guest_stay_font_sans_regular.ttf in Resources */,
+				A5848514F3784506BE1590FD /* guest_stay_font_sans_medium.ttf in Resources */,
+				FD412076097B4F2D8E6D5579 /* guest_stay_font_sans_semibold_italic.ttf in Resources */,
+				7F6B14B2750D4426B40B5B70 /* guest_stay_font_sans_bold.ttf in Resources */,
+				BAFBBD125D8341CD8B3F9B72 /* guest_stay_font_serif_bold.ttf in Resources */,
+				0ABADE90986F44C6B5BE5A90 /* guest_stay_font_serif_semibold.ttf in Resources */,
+				B39444BA94B441368EF60A34 /* guest_stay_font_serif_medium.ttf in Resources */,
+				0EDA5C76EF094770BE373221 /* guest_stay_font_sans_semibold.ttf in Resources */,
+				1C70226FAA654164BA05B951 /* guest_stay_font_serif_regular.ttf in Resources */,
+				F0750D619BFB4C25AD082949 /* guest_stay_font_sans_extrabold.ttf in Resources */,
+				D1AA9AB05D74411691F058C4 /* guest_stay_font_serif_black.ttf in Resources */,
+				0218A3C8843F44CD9B60D67B /* guest_stay_font_sans_black.ttf in Resources */,
+				EF781E0FFAA446A7B15C3C9E /* guest_stay_font_serif_extrabold.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -341,7 +341,7 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.dsfknkl.ldfflnlkasdkl;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dfkjadck.stayatcascades;
 				PRODUCT_NAME = CascadesGuestStay;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
@@ -373,7 +373,7 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.dsfknkl.ldfflnlkasdkl;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dfkjadck.stayatcascades;
 				PRODUCT_NAME = CascadesGuestStay;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;

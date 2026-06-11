@@ -1,8 +1,13 @@
 import React from 'react';
-import {CascadesGuestStayNav} from './CascadesGuestStayNav';
+import {SafeAreaProvider} from 'react-native-safe-area-context';
+import {AppNavigator} from './src/navigation/AppNavigator';
 
 function App(): React.JSX.Element {
-  return <CascadesGuestStayNav />;
+  return (
+    <SafeAreaProvider>
+      <AppNavigator />
+    </SafeAreaProvider>
+  );
 }
 
 export default App;

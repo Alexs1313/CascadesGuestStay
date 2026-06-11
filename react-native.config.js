@@ -1,3 +1,3 @@
 module.exports = {
-  assets: ['./CascadesGuestStay/CascadesGuestStayAssets/fonts/'],
+  assets: ['./src/assets/fonts/'],
 };

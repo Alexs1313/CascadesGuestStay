@@ -9,7 +9,7 @@
 	<key>CFBundleExecutable</key>
 	<string>$(EXECUTABLE_NAME)</string>
 	<key>CFBundleIdentifier</key>
-	<string>com.dsfknkl.ldfflnlkasdkl</string>
+	<string>com.dfkjadck.stayatcascades</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleName</key>
@@ -35,19 +35,19 @@
 	<string></string>
 	<key>UIAppFonts</key>
 	<array>
-		<string>GuestStayDMSans-Regular.ttf</string>
-		<string>GuestStayDMSans-Medium.ttf</string>
-		<string>GuestStayDMSans-SemiBoldItalic.ttf</string>
-		<string>GuestStayDMSans-Bold.ttf</string>
-		<string>GuestStayPlayfairDisplay-Bold.ttf</string>
-		<string>GuestStayPlayfairDisplay-SemiBold.ttf</string>
-		<string>GuestStayPlayfairDisplay-Medium.ttf</string>
-		<string>GuestStayDMSans-SemiBold.ttf</string>
-		<string>GuestStayPlayfairDisplay-Regular.ttf</string>
-		<string>GuestStayDMSans-ExtraBold.ttf</string>
-		<string>GuestStayPlayfairDisplay-Black.ttf</string>
-		<string>GuestStayDMSans-Black.ttf</string>
-		<string>GuestStayPlayfairDisplay-ExtraBold.ttf</string>
+		<string>guest_stay_font_sans_regular.ttf</string>
+		<string>guest_stay_font_sans_medium.ttf</string>
+		<string>guest_stay_font_sans_semibold_italic.ttf</string>
+		<string>guest_stay_font_sans_bold.ttf</string>
+		<string>guest_stay_font_serif_bold.ttf</string>
+		<string>guest_stay_font_serif_semibold.ttf</string>
+		<string>guest_stay_font_serif_medium.ttf</string>
+		<string>guest_stay_font_sans_semibold.ttf</string>
+		<string>guest_stay_font_serif_regular.ttf</string>
+		<string>guest_stay_font_sans_extrabold.ttf</string>
+		<string>guest_stay_font_serif_black.ttf</string>
+		<string>guest_stay_font_sans_black.ttf</string>
+		<string>guest_stay_font_serif_extrabold.ttf</string>
 	</array>
 	<key>UILaunchStoryboardName</key>
 	<string>LaunchScreen</string>
