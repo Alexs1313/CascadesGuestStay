@@ -5,7 +5,7 @@ export const DESIGN_WIDTH = 393;
 export const DESIGN_HEIGHT = 852;
 
 export const colors = {
-  background: '#0C1824',
+  background: 'rgb(22, 22, 54)',
   card: '#182738',
   cardGradientEnd: '#1A2F45',
   gold: '#FABF14',
@@ -28,8 +28,8 @@ export const colors = {
   categoryPurple: '#C096E8',
   categoryPurpleBg: 'rgba(192, 150, 232, 0.09)',
   timelineInactive: '#2A4560',
-  headerGradientStart: '#182738',
-  headerGradientEnd: '#0C1824',
+  headerGradientStart: 'rgb(4, 4, 54)',
+  headerGradientEnd: 'rgb(22, 22, 54)',
   loaderOverlay: 'rgba(0, 0, 0, 0.4)',
   heroGradientStart: 'rgba(12, 24, 36, 0.3)',
   heroGradientMid: 'rgba(12, 24, 36, 0.1)',
