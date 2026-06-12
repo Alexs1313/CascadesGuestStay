@@ -7,12 +7,21 @@ export function useAdaptive() {
   const {width, height} = useWindowDimensions();
 
   return useMemo(() => {
+    const isLandscape = width > height;
+    const portraitWidth = isLandscape ? height : width;
+    const portraitHeight = isLandscape ? width : height;
+
     const isNarrow = width < 370;
     const isSmallHeight = height < 740;
     const isTinyHeight = height < 660;
 
+    const portraitIsSmallHeight = portraitHeight < 740;
+    const portraitIsTinyHeight = portraitHeight < 660;
+
     const scale = (size: number) => (width / DESIGN_WIDTH) * size;
     const verticalScale = (size: number) => (height / DESIGN_HEIGHT) * size;
+    const portraitScale = (size: number) =>
+      (portraitWidth / DESIGN_WIDTH) * size;
 
     return {
       width,
@@ -23,11 +32,19 @@ export function useAdaptive() {
       scale,
       verticalScale,
       horizontalPadding: isNarrow ? scale(16) : scale(20),
-      tabHeight: isTinyHeight ? scale(58) : isSmallHeight ? scale(62) : scale(66),
-      tabIconSize: isTinyHeight ? scale(20) : scale(22),
-      tabIconWrapHeight: isTinyHeight ? scale(24) : scale(28),
-      tabPaddingTop: isTinyHeight ? scale(8) : scale(10),
-      tabPaddingBottom: isTinyHeight ? scale(18) : scale(24),
+      tabHeight: portraitIsTinyHeight
+        ? portraitScale(58)
+        : portraitIsSmallHeight
+          ? portraitScale(62)
+          : portraitScale(66),
+      tabIconSize: portraitIsTinyHeight ? portraitScale(20) : portraitScale(22),
+      tabIconWrapHeight: portraitIsTinyHeight
+        ? portraitScale(24)
+        : portraitScale(28),
+      tabPaddingTop: portraitIsTinyHeight ? portraitScale(8) : portraitScale(10),
+      tabPaddingBottom: portraitIsTinyHeight
+        ? portraitScale(18)
+        : portraitScale(24),
       venueCardImageHeight: isTinyHeight
         ? verticalScale(148)
         : isSmallHeight

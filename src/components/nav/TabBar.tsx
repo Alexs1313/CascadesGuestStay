@@ -6,7 +6,6 @@ import {tabIcons} from '../../data/assets';
 import {colors} from '../../constants/theme';
 import {fonts} from '../../constants/theme';
 
-
 const TAB_LABELS: Record<string, string> = {
   HomeTab: 'Home',
   RequestsTab: 'Requests',
@@ -15,10 +14,7 @@ const TAB_LABELS: Record<string, string> = {
   MapTab: 'Map',
 };
 
-export function TabBar({
-  state,
-  navigation,
-}: BottomTabBarProps) {
+export function TabBar({state, navigation}: BottomTabBarProps) {
   const adaptive = useAdaptive();
   return (
     <View
@@ -31,8 +27,7 @@ export function TabBar({
       ]}>
       {state.routes.map((route, index) => {
         const isFocused = state.index === index;
-        const icon =
-          tabIcons[route.name as keyof typeof tabIcons];
+        const icon = tabIcons[route.name as keyof typeof tabIcons];
 
         const onPress = () => {
           const event = navigation.emit({
@@ -47,10 +42,7 @@ export function TabBar({
         };
 
         return (
-          <Pressable
-            key={route.key}
-            onPress={onPress}
-            style={styles.TabBarTab}>
+          <Pressable key={route.key} onPress={onPress} style={styles.TabBarTab}>
             <View
               style={[
                 styles.TabBarTabInner,
@@ -85,44 +77,44 @@ export function TabBar({
 }
 
 const styles = StyleSheet.create({
-
-TabBarFacetChassis: {
-  flexDirection: 'row',
-  backgroundColor: '#0A1520',
-  borderTopColor: 'rgba(250, 191, 20, 0.08)',
-  borderTopWidth: 1,
-  paddingHorizontal: 8,
-},
-TabBarTab: {
-  alignItems: 'center',
-  flex: 1,
-},
-TabBarTabInner: {
-  alignItems: 'center',
-  borderRadius: 16,
-  gap: 4,
-  minWidth: 52,
-  paddingHorizontal: 10,
-  paddingVertical: 8,
-},
-TabBarTabInnerActive: {
-  backgroundColor: 'rgba(250, 191, 20, 0.08)',
-},
-TabBarIconSigil: {
-  tintColor: colors.gold,
-},
-TabBarIconInactive: {
-  tintColor: colors.label,
-  opacity: 0.7,
-},
-TabBarLabelFiligree: {
-  color: colors.label,
-  fontFamily: fonts.sansRegular,
-  fontSize: 10,
-},
-TabBarLabelActiveFiligree: {
-  color: colors.gold,
-  fontFamily: fonts.sansBold,
-  fontWeight: '700',
-},
+  TabBarFacetChassis: {
+    flexDirection: 'row',
+    backgroundColor: '#0A1520',
+    borderTopColor: 'rgba(250, 191, 20, 0.08)',
+    borderTopWidth: 1,
+    paddingHorizontal: 8,
+  },
+  TabBarTab: {
+    alignItems: 'center',
+    flex: 1,
+  },
+  TabBarTabInner: {
+    alignItems: 'center',
+    borderRadius: 16,
+    gap: 4,
+    minWidth: 52,
+    paddingHorizontal: 10,
+    paddingVertical: 8,
+  },
+  TabBarTabInnerActive: {
+    backgroundColor: 'rgba(250, 191, 20, 0.08)',
+    borderRadius: 16,
+  },
+  TabBarIconSigil: {
+    tintColor: colors.gold,
+  },
+  TabBarIconInactive: {
+    tintColor: colors.label,
+    opacity: 0.7,
+  },
+  TabBarLabelFiligree: {
+    color: colors.label,
+    fontFamily: fonts.sansRegular,
+    fontSize: 10,
+  },
+  TabBarLabelActiveFiligree: {
+    color: colors.gold,
+    fontFamily: fonts.sansBold,
+    fontWeight: '700',
+  },
 });

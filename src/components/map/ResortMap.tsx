@@ -2,11 +2,7 @@ import {useAdaptive} from '../../hooks/useAdaptive';
 import React, {useMemo} from 'react';
 import {Image, Platform, StyleSheet, Text, View} from 'react-native';
 import MapView, {Marker, PROVIDER_GOOGLE} from 'react-native-maps';
-import {
-  MapVenue,
-  getMapCategoryColor,
-  getMapPinIcon,
-} from '../../data/map';
+import {MapVenue, getMapCategoryColor, getMapPinIcon} from '../../data/map';
 import {
   DARK_MAP_STYLE,
   MAP_PIN_SIZE,
@@ -15,7 +11,6 @@ import {
 } from '../../constants/mapStyle';
 import {colors} from '../../constants/theme';
 import {fonts} from '../../constants/theme';
-
 
 type ResortMapProps = {
   venues: MapVenue[];
@@ -29,7 +24,7 @@ export function ResortMap({
   onSelectVenue,
 }: ResortMapProps) {
   const adaptive = useAdaptive();
-  
+
   const legendItems = [
     {label: 'Family', color: '#7ED8A4'},
     {label: 'Shows', color: '#C096E8'},
@@ -41,12 +36,12 @@ export function ResortMap({
       return MAP_REGION;
     }
 
-  const latitudes = venues.map(venue => venue.latitude);
-  const longitudes = venues.map(venue => venue.longitude);
-  const minLat = Math.min(...latitudes);
-  const maxLat = Math.max(...latitudes);
-  const minLng = Math.min(...longitudes);
-  const maxLng = Math.max(...longitudes);
+    const latitudes = venues.map(venue => venue.latitude);
+    const longitudes = venues.map(venue => venue.longitude);
+    const minLat = Math.min(...latitudes);
+    const maxLat = Math.max(...latitudes);
+    const minLng = Math.min(...longitudes);
+    const maxLng = Math.max(...longitudes);
 
     return {
       latitude: (minLat + maxLat) / 2,
@@ -86,29 +81,7 @@ export function ResortMap({
                   longitude: venue.longitude,
                 }}
                 onPress={() => onSelectVenue(venue.id)}
-                tracksViewChanges={false}>
-                <View style={styles.ResortMapMarker}>
-                  {isSelected && (
-                    <View
-                      style={[
-                        styles.ResortMapPinLabelFiligree,
-                        {backgroundColor: color},
-                      ]}>
-                      <Text style={styles.ResortMapPinLabelTextFiligree}>
-                        {venue.title}
-                      </Text>
-                    </View>
-                  )}
-                  <Image
-                    source={getMapPinIcon(venue.category)}
-                    style={[
-                      styles.ResortMapPin,
-                      isSelected && styles.ResortMapPinSelected,
-                    ]}
-                    resizeMode="contain"
-                  />
-                </View>
-              </Marker>
+                tracksViewChanges={false}></Marker>
             );
           })}
         </MapView>
@@ -137,76 +110,75 @@ export function ResortMap({
 }
 
 const styles = StyleSheet.create({
-
-ResortMapCardMantle: {
-  paddingHorizontal: 20,
-},
-ResortMapMap: {
-  borderColor: 'rgba(250, 191, 20, 0.15)',
-  borderRadius: 24,
-  borderWidth: 1,
-  overflow: 'hidden',
-},
-ResortMapMapView: {
-  ...StyleSheet.absoluteFillObject,
-},
-ResortMapLegend: {
-  backgroundColor: 'rgba(12, 24, 36, 0.8)',
-  borderRadius: 15,
-  gap: 6,
-  paddingHorizontal: 8,
-  paddingVertical: 10,
-  position: 'absolute',
-  right: 12,
-  top: 12,
-},
-ResortMapLegendRowLintel: {
-  alignItems: 'center',
-  flexDirection: 'row',
-  gap: 6,
-},
-ResortMapLegendDot: {
-  borderRadius: 100,
-  height: 8,
-  width: 8,
-},
-ResortMapLegendLabelFiligree: {
-  color: colors.cream,
-  fontFamily: fonts.sansRegular,
-  fontSize: 9,
-  letterSpacing: 0.5,
-},
-ResortMapMarker: {
-  alignItems: 'center',
-},
-ResortMapPin: {
-  height: MAP_PIN_SIZE,
-  width: MAP_PIN_SIZE,
-},
-ResortMapPinSelected: {
-  height: MAP_PIN_SIZE_SELECTED,
-  width: MAP_PIN_SIZE_SELECTED,
-},
-ResortMapPinLabelFiligree: {
-  borderRadius: 100,
-  marginBottom: 4,
-  paddingHorizontal: 10,
-  paddingVertical: 2,
-},
-ResortMapPinLabelTextFiligree: {
-  color: colors.background,
-  fontFamily: fonts.sansBold,
-  fontSize: 9,
-  fontWeight: '700',
-},
-ResortMapBrandingFiligree: {
-  bottom: 12,
-  color: colors.gold,
-  fontFamily: fonts.serifRegular,
-  fontSize: 12,
-  left: 12,
-  letterSpacing: 2,
-  opacity: 0.3,
-  position: 'absolute',
-},
+  ResortMapCardMantle: {
+    paddingHorizontal: 20,
+  },
+  ResortMapMap: {
+    borderColor: 'rgba(250, 191, 20, 0.15)',
+    borderRadius: 24,
+    borderWidth: 1,
+    overflow: 'hidden',
+  },
+  ResortMapMapView: {
+    ...StyleSheet.absoluteFillObject,
+  },
+  ResortMapLegend: {
+    backgroundColor: 'rgba(12, 24, 36, 0.8)',
+    borderRadius: 15,
+    gap: 6,
+    paddingHorizontal: 8,
+    paddingVertical: 10,
+    position: 'absolute',
+    right: 12,
+    top: 12,
+  },
+  ResortMapLegendRowLintel: {
+    alignItems: 'center',
+    flexDirection: 'row',
+    gap: 6,
+  },
+  ResortMapLegendDot: {
+    borderRadius: 100,
+    height: 8,
+    width: 8,
+  },
+  ResortMapLegendLabelFiligree: {
+    color: colors.cream,
+    fontFamily: fonts.sansRegular,
+    fontSize: 9,
+    letterSpacing: 0.5,
+  },
+  ResortMapMarker: {
+    alignItems: 'center',
+  },
+  ResortMapPin: {
+    height: MAP_PIN_SIZE,
+    width: MAP_PIN_SIZE,
+  },
+  ResortMapPinSelected: {
+    height: MAP_PIN_SIZE_SELECTED,
+    width: MAP_PIN_SIZE_SELECTED,
+  },
+  ResortMapPinLabelFiligree: {
+    borderRadius: 100,
+    marginBottom: 4,
+    paddingHorizontal: 10,
+    paddingVertical: 2,
+  },
+  ResortMapPinLabelTextFiligree: {
+    color: colors.background,
+    fontFamily: fonts.sansBold,
+    fontSize: 9,
+    fontWeight: '700',
+  },
+  ResortMapBrandingFiligree: {
+    bottom: 12,
+    color: colors.gold,
+    fontFamily: fonts.serifRegular,
+    fontSize: 12,
+    left: 12,
+    letterSpacing: 2,
+    opacity: 0.3,
+    position: 'absolute',
+  },
 });
