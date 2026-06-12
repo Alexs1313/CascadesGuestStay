@@ -1,4 +1,4 @@
-package com.cascadesgueststay
+package com.cascadesguest.guide
 
 import com.facebook.react.ReactActivity
 import com.facebook.react.ReactActivityDelegate
